@@ -1,8 +1,13 @@
 import React from 'react';
+import './Header.css';
 
-export default function Header(title: string) {
+interface iHeader {
+    title: string
+}
+
+export default function Header({title}:iHeader) {
     return (
-        <div className='Header'>
+        <div className='header'>
             <div>{title}</div>
         </div>
     )

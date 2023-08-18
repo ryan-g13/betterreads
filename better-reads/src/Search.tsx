@@ -5,7 +5,8 @@ const Search = () => {
 
     const handleChange = (e:any) => {
         e.preventDefault();
-        setSearchInput(e.target.value);
+        const lower = e.target.value.toLowerCase();
+        setSearchInput(lower);
     }
 
     return (

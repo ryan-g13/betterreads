@@ -8,23 +8,9 @@ import Carousel from './Carousel';
 function App() {
   return (
     <div className="App">
-      {Header('Better Reads')}
+      <Header title='Better Reads'/>
       <Search />
       <Carousel />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
@@ -44,8 +30,8 @@ TODO: Carousel updates:
       c. styling
 
       Header: 
-      a. styling 
-      b. font selection 
+      a. styling - Done 
+      b. font selection - WIP - current Serif
       c. navigation ? or as new comp
 
       Scrollable list:
@@ -54,5 +40,5 @@ TODO: Carousel updates:
     
       User / Save to list functionality.
 
-      Clean up original application code
+      Clean up original application code - DONE - cleaned up css and starter code
 */
