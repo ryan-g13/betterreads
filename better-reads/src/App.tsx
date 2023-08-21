@@ -1,16 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Search from './Search';
 import Carousel from './Carousel';
+import ListCard from './ListCard';
 
 function App() {
+  const cardData = [{
+    title: 'Red Rising',
+    author: 'Pierce Brown',
+    img: 'https://placehold.co/75x100',
+    description: 'The reds rise up!',
+}]
+
   return (
     <div className="App">
       <Header title='Better Reads'/>
       <Search />
       <Carousel />
+      <ListCard img={cardData[0].img} title={cardData[0].title} author={cardData[0].author} description={cardData[0].description}/>
     </div>
   );
 }
