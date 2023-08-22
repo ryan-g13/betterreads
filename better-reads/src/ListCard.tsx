@@ -9,7 +9,7 @@ const ListCard = ({img, title, author, description}: iCard) => {
                 <img src={img} className='list-img'/>
             </div>
             <div className='list-text-container'>
-                <div className='list-card-title'>{title}</div>
+                <div className='list-card-title'>{title} -</div>
                 <div className='list-card-text'>{author}</div>
                 <div className='list-card-description'>{description}</div>
             </div>
