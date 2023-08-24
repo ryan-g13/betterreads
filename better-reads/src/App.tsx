@@ -40,6 +40,7 @@ TODO: Carousel updates:
       Scrollable list:
       a. reuse card component from carousel to list books upon search results
       b. filterable search
+      c. present a list of books - done 
     
       User / Save to list functionality.
 
