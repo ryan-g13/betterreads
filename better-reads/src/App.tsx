@@ -4,6 +4,7 @@ import Header from './Header';
 import Search from './Search';
 import Carousel from './Carousel';
 import List from './List';
+import Sidebar from './Sidebar';
 
 function App() {
  
@@ -11,9 +12,12 @@ function App() {
   return (
     <div className="App">
       <Header title='Better Reads'/>
-      <Search />
-      <Carousel />
-      <List />
+      <div className='main-container'>
+        <Sidebar />
+        <Carousel />
+        <Search />
+        <List />
+      </div>
     </div>
   );
 }
