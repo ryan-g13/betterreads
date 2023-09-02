@@ -5,27 +5,34 @@ const List = () => {
     const cardData = [{
         title: 'Red Rising',
         author: 'Pierce Brown',
-        img: 'https://placehold.co/75x100',
+        img: '/redrising.jpg',
         description: 'The reds rise up!',
     },
     {
       title: 'Golden Son',
       author: 'Pierce Brown',
-      img: 'https://placehold.co/75x100',
+      img: '/goldenson.jpg',
       description: 'A book that comes second in the series.',
     },
     {
       title: 'Morningstar',
       author: 'Pierce Brown',
-      img: 'https://placehold.co/75x100',
+      img: '/morningstar.jpg',
       description: 'What should have been the final book in the series but ended up not.',
     },
     {
       title: 'Iron Gold',
       author: 'Pierce Brown',
-      img: 'https://placehold.co/75x100',
+      img: '/irongold.jpg',
       description: 'This one is a lot of characters in a bad way.',
-    }];
+    },
+    {
+        title: 'Dark Age',
+        author: 'Pierce Brown',
+        img: '/darkage.jpg',
+        description: 'This one is a the second to the last book.',
+      }
+];
     
     const list = cardData.map(card => {
         return <ListCard img={card.img} title={card.title} author={card.author} description={card.description}/>

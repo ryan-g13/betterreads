@@ -5,7 +5,7 @@ const Carousel = () => {
     const top5Data = [{
         title: 'Red Rising',
         author: 'Pierce Brown',
-        img: 'https://placehold.co/150x250',
+        img: '/redrising.jpg',
         description: 'The reds rise up!',
     }]
 
