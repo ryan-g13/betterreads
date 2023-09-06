@@ -5,6 +5,7 @@ import Search from './Search';
 import Carousel from './Carousel';
 import List from './List';
 import Sidebar from './Sidebar';
+import DetailView from './DetailView';
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
         <Carousel />
         <Search />
         <List />
+        <DetailView id={1} />
       </div>
     </div>
   );

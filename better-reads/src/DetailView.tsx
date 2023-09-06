@@ -1,9 +1,9 @@
 import React from 'react';
 
-const DetailView = (id:number) => {
+const DetailView = (props:any) => {
     return (
         <div className='detail-view-container'>
-            Detailed - Book view {id}
+            Detailed - Book view {props.id}
         </div>
     )
 }
